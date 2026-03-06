@@ -33,9 +33,10 @@ jobs:
       - name: Publish
         run: >
           dotnet publish
+          CurseDelete.csproj
           -r ${{ matrix.rid }}
           -c Release
-          --output ./publish/${{ matrix.rid }}
+          -p:PublishDir=./publish/${{ matrix.rid }}
 
       - name: Upload artifact
         uses: actions/upload-artifact@v4
