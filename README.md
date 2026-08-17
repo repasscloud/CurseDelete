@@ -1,5 +1,10 @@
 # CursedDelete
 
+> [!IMPORTANT]
+> **This project has been archived and is no longer maintained.**
+>
+> It has been replaced by **[CurseDelete 2](https://github.com/repasscloud/cursedelete-2)**.
+
 A fast, parallel file and directory deleter for Windows, Linux, and macOS. Built for cleaning up large trees — millions of files, deep hierarchies, locked paths, and network shares — where standard tools are too slow or fail silently.
 
 ## Installation
